@@ -1,4 +1,4 @@
-// outputNode.js
+
 
 import { useState } from 'react';
 import { BaseNode } from './baseNode';

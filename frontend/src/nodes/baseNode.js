@@ -1,4 +1,4 @@
-// baseNode.js
+
 
 import { Handle, Position } from 'reactflow';
 
@@ -9,7 +9,7 @@ export const BaseNode = ({ id, title, inputHandles = [], outputHandles = [], chi
         {title}
       </div>
 
-      {/* Input Handles (left side) */}
+    
       {inputHandles.map((handle, index) => (
         <Handle
           key={handle.id}
@@ -20,10 +20,10 @@ export const BaseNode = ({ id, title, inputHandles = [], outputHandles = [], chi
         />
       ))}
 
-      {/* Custom content */}
+      
       <div>{children}</div>
 
-      {/* Output Handles (right side) */}
+     
       {outputHandles.map((handle, index) => (
         <Handle
           key={handle.id}
