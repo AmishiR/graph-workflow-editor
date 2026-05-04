@@ -1,0 +1,12 @@
+cat <<EOF > .gitignore
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Node (if frontend uses it)
+node_modules/
+dist/
+EOF
