@@ -1,4 +1,4 @@
-// submit.js
+
 
 export async function submitPipeline(nodes, edges) {
   const res = await fetch('http://127.0.0.1:8000/pipelines/parse', {
